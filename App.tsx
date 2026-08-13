@@ -1,19 +1,19 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Project, FilterState, ActiveTab } from './types';
 import { fetchProjects } from './services/api';
-import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { PropertyCard } from './components/PropertyCard';
-import { PropertyFilter } from './components/PropertyFilter';
-import { PropertyDetailModal } from './components/PropertyDetailModal';
-import { EligibilityModal } from './components/EligibilityModal';
-import { PopularAreas } from './components/PopularAreas';
-import { WhyChooseUs } from './components/WhyChooseUs';
-import { ProcessSteps } from './components/ProcessSteps';
-import { CalculatorSection } from './components/CalculatorSection';
-import { AboutSection } from './components/AboutSection';
-import { ContactSection } from './components/ContactSection';
-import { Footer } from './components/Footer';
+import { Navbar } from './Navbar';
+import { Hero } from './Hero';
+import { PropertyCard } from './PropertyCard';
+import { PropertyFilter } from './PropertyFilter';
+import { PropertyDetailModal } from './PropertyDetailModal';
+import { EligibilityModal } from './EligibilityModal';
+import { PopularAreas } from './PopularAreas';
+import { WhyChooseUs } from './WhyChooseUs';
+import { ProcessSteps } from './ProcessSteps';
+import { CalculatorSection } from './CalculatorSection';
+import { AboutSection } from './AboutSection';
+import { ContactSection } from './ContactSection';
+import { Footer } from './Footer';
 import { Building2, Loader2, RefreshCw, AlertCircle, Sparkles, CheckCircle2 } from 'lucide-react';
 
 export default function App() {
